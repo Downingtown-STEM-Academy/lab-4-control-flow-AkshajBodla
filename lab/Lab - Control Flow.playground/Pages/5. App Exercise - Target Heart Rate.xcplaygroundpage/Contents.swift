@@ -9,8 +9,11 @@
  */
 let targetLowerBound = 70
 let targetUpperBound = 90
-
 let currentAverage = 67
+let isAverage <= 
+let isBelowAverage = isAverage < 80
+let isAboveAverage = isAverage > 80
+
 //let currentAverage = 85
 //let currentAverage = 95
 

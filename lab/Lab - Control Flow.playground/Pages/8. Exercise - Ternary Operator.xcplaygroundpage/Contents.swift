@@ -24,6 +24,14 @@ if number1 > number2 {
 }
 
 print(largest)
+
+if number1 > number2 {
+    largest=number1
+} else {
+    largest=number2
+    if number1==number2 {
+    print ("no larger number.")
+}
 //print("The result for set 1 was:")
 //print()
 
