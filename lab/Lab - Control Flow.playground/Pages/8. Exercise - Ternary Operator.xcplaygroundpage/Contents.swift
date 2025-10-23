@@ -30,10 +30,11 @@ if number1 > number2 {
 } else {
     largest=number2
     if number1==number2 {
-    print ("no larger number.")
+        print ("no larger number.")
+    }
+    //print("The result for set 1 was:")
+    //print()
+    
+    
+    //: [Previous](@previous)  |  page 8 of 9  |  [Next](@next)
 }
-//print("The result for set 1 was:")
-//print()
-
-
-//: [Previous](@previous)  |  page 8 of 9  |  [Next](@next)
