@@ -28,27 +28,32 @@ if (hasFish || hasPizza) && hasVegan {
 
 
 //Set 1
-let temp = 82
-let isRaining = true
-let isWindy = false
-/* Set 2
-let temp = 82
-let isRaining = true
-let isWindy = true
-*/
-/* Set 3
+//let temp = 82
+//let isRaining = true
+//let isWindy = false
+
+
+
+//let temp = 82
+//let isRaining = true
+//let isWindy = true
+ 
 let temp = 75
 let isRaining = false
 let isWindy = true
-*/
 
-if (temp == 82 || isRaining && isWindy) {
+
+//insert your code here!!
+let walkingWeather: Bool = !isRaining || (temp >= 82 && !isWindy)
+
+if walkingWeather {
     print ("I'm going for a walk!")
 } else {
     print ("Im not going")
 }
-//insert your code here!!
-
+print (walkingWeather)
 //insert print statements here!!
 print("Set 1: going for walk!")
+print("Set 2: Im not going")
+print("Set 3: Im not going")
 //: [Previous](@previous)  |  page 4 of 9  |  [Next](@next)
