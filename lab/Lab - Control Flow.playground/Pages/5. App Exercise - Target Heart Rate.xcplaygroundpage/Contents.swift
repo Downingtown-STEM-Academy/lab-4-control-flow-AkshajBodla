@@ -9,17 +9,28 @@
  */
 let targetLowerBound = 70
 let targetUpperBound = 90
-let currentAverage = 67
-let isAverage <= 
-let isBelowAverage = isAverage < 80
-let isAboveAverage = isAverage > 80
 
-//let currentAverage = 85
+//let currentAverage = 67
+let currentAverage = 85
 //let currentAverage = 95
 
 //insert your code here
+let isAverage = currentAverage >= targetLowerBound && currentAverage <= targetUpperBound
+let isBelowAverage = currentAverage < targetLowerBound
+let isAboveAverage = currentAverage > targetUpperBound
+
+if isAboveAverage {
+    print ("You're right on track!")
+} else if isAverage {
+    print("You're doing great, but try to push it a bit!")
+} else {
+    print("You need to study more often")
+}
+
 
 //print the results from each current average here.
-
+print ("You need to study mire often")
+print ("You're doing great, but try to push it a bit!")
+print ("You're right on track!")
 
 //: [Previous](@previous)  |  page 5 of 9  |  [Next](@next)

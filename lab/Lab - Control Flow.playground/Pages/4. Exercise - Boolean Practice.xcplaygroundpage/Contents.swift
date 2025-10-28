@@ -50,4 +50,5 @@ if (temp == 82 || isRaining && isWindy) {
 //insert your code here!!
 
 //insert print statements here!!
+print("Set 1: going for walk!")
 //: [Previous](@previous)  |  page 4 of 9  |  [Next](@next)

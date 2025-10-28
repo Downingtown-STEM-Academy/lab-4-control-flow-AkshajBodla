@@ -16,25 +16,20 @@ let number1 = 25
 let number2 = 25
 */
 
-var largest: Int
+var largest: Int = 0
+/*
 if number1 > number2 {
     largest = number1
 } else {
     largest = number2
 }
+*/
+
+
+largest = number1 > number2 ? number1 : number2
 
 print(largest)
 
-if number1 > number2 {
-    largest=number1
-} else {
-    largest=number2
-    if number1==number2 {
-        print ("no larger number.")
-    }
-    //print("The result for set 1 was:")
-    //print()
     
     
     //: [Previous](@previous)  |  page 8 of 9  |  [Next](@next)
-}
