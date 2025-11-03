@@ -10,10 +10,14 @@
  
  Another friend brings up a restaurant she thinks will fit both of your criteria. This restaurant's attributes are represented by a few constants below. Write an if-else statement that will print "Let's go!" if the restaurant's attributes match the group's dietary requirements, and otherwise will print "Sorry, we'll have to think of somewhere else." (.5 points)
  */
-let hasFish = true
 let hasPizza = false
 let hasVegan = true
-
+let hasFish = true
+if (hasFish || hasPizza) && hasVegan {
+    print ("Let's go!")
+} else {
+    print ("No way!")
+}
 
 /*:
  Imagine you're trying to decide whether or not to go on a walk. You decide that you'll go on a walk if it's not raining or if it's 82 degress or warmer and NOT windy. Create a constant `walkingWeather` that is equal to an expression that evaluates to a boolean indicating whether or not the weather is nice enough for you to go for a walk. Write an if statement that will print "I'm going for a walk!" if the weather is nice. (1 points)
@@ -22,22 +26,34 @@ let hasVegan = true
  
  */
 
+
 //Set 1
-let temp = 82
-let isRaining = true
-let isWindy = false
-/* Set 2
-let temp = 82
-let isRaining = true
-let isWindy = true
-*/
-/* Set 3
+//let temp = 82
+//let isRaining = true
+//let isWindy = false
+
+
+
+//let temp = 82
+//let isRaining = true
+//let isWindy = true
+ 
 let temp = 75
 let isRaining = false
 let isWindy = true
-*/
+
 
 //insert your code here!!
+let walkingWeather: Bool = !isRaining || (temp >= 82 && !isWindy)
 
+if walkingWeather {
+    print ("I'm going for a walk!")
+} else {
+    print ("Im not going")
+}
+print (walkingWeather)
 //insert print statements here!!
+print("Set 1: going for walk!")
+print("Set 2: Im not going")
+print("Set 3: Im not going")
 //: [Previous](@previous)  |  page 4 of 9  |  [Next](@next)
